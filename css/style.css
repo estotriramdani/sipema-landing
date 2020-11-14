@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+a{
+  color: #ff55bf;
+}
+a:hover{
+  text-decoration: none;
+  color: #bd0f7a;
+}
+
+h5{
+  font-weight: bold;
+}
+
+.nav-link-color {
+  color: white;
+}
+
+.bg-putih {
+  transition: 0.3s;
+  background-color: white;
+}
+
+.navfix {
+  background-color: #ff55bf !important ;
+  transition: 0.3s;
+}
+
+.auth {
+  background-color: #ff55bf;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border-color: white;
+  color: white !important;
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.auth:hover {
+  font-weight: bold !important;
+  transition: 1s !important;
+}
+
+.jumbo-wrapper {
+  position: relative;
+  top: 7vh;
+}
+
+.jumbotron {
+  height: 100vh;
+  background-color: white !important;
+}
+
+.display-4 {
+  font-family: "Poppins", sans-serif;
+  color: #ff55bf;
+  font-weight: 700 !important;
+}
+
+.desc-top {
+  margin-top: 5vh;
+}
+
+.tombol-grup {
+  margin-top: 10vh !important;
+}
+
+
+.btn-mulai {
+  padding: 10px 30px;
+  background-color: #ff55bf;
+  color: white;
+  text-decoration: none !important;
+  border-radius: 10px;
+}
+
+.btn-mulai:hover {
+  color: #ff55bf !important;
+  background-color: #eceaff !important;
+}
+.btn-mulai:active {
+  color: #ff55bf !important;
+  background-color: #eceaff !important;
+}
+
+.btn-materi {
+  padding: 10px 30px;
+  text-decoration: none !important;
+  border-radius: 10px;
+  background-color: #eceaff !important;
+  color: black !important;
+}
+
+.btn-materi:hover {
+  color: white !important;
+  background-color: #666565 !important;
+}
+.btn-materi:active {
+  color: white !important;
+  background-color: #666565 !important;
+}
+
+.img-top {
+  margin: auto auto;
+  width: 100%;
+}
+
+/* section materi */
+
+.subtittle-landing{
+  color: #ff55bf;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtittle-landing::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #ff55bf;
+    width: 60px;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+.desc-subtittle{
+  text-align: center;
+
+}
+
+/* section tentang */
+.profile-img{
+  width: 150px;
+}
+
+/* invite */
+.invite-text{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.invite-text::after{
+  content: "";
+    display: block;
+    border-bottom: 3px solid #ff55bf;
+    width: 25%;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+
+
+/* login page */
+.login-wrapper {
+  position: relative;
+  top: 10vh;
+  background-color: #ff55bf;
+  padding: 50px;
+  border-radius: 20px;
+  color: white;
+}
+
+.posisi-tombol {
+  position: relative;
+  top: 80px;
+}
+
+/* registration page */
+
+.regis-wrapper {
+  position: relative;
+  /* top: 10vh; */
+  border-style: solid;
+  padding: 30px;
+  border-color: #ff55bf;
+  border-width: 5px;
+  border-radius: 30px;
+  color: #ff55bf;
+}
+
+.gambar-regis {
+  display: inline;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.img-muncul {
+  animation-name: example;
+  animation-duration: 2s;
+  opacity: 1;
+  /* overflow: hidden; */
+  transition: 1s;
+}
+
+.ganti {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-auth {
+  background-color: #ff55bf;
+  color: white;
+  height: 100px;
+  width: 100vw;
+}
+
+
+
+@keyframes example {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .hide-img-top {
+    display: none;
+    box-shadow: none;
+  }
+
+  .desc-profile{
+    margin-top: 30px;
+    text-align: center;
+    /* line-height: 1em; */
+  }
+
+  .profile-img{
+    width: 150px!important;
+  }
+
+  .auth {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .daftar {
+    text-align: center;
+  }
+
+  .regis-wrapper {
+    top: 3vh;
+  }
+  .gambar-regis {
+    display: none;
+    width: 100%;
+  }
+
+  .daftar-sebagai-guru {
+    margin-top: 5px;
+  }
+
+  .invite-text::after{
+  content: "";
+    display: block;
+    border-bottom: 3px solid #ff55bf;
+    width: 65%;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.desc-footer{
+
+}
+
+  
+}
+
+@media (min-width: 1200px) {
+  .posisi-tombol {
+    position: relative;
+    top: 120px;
+  }
+}
